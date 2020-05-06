@@ -23,7 +23,7 @@ DEPENDENCIES:
   - SignalR_ObjC (from `../`)
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - SocketRocket
 
@@ -33,9 +33,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  SignalR_ObjC: 34c42caae4da2fcd993ece69bdae251c101bad46
+  SignalR_ObjC: 8c5609b984093d6b56e835ebe884d7b02dc03525
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 51b357ba9a367a05a2214683e6bc3f8b11d848ae
+PODFILE CHECKSUM: 66d2dec06ba344e266607deff9e40ce71357330d
 
 COCOAPODS: 1.9.1

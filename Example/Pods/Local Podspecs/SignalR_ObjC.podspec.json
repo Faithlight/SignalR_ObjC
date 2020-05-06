@@ -15,9 +15,6 @@
     "git": "https://github.com/Faithlight/SignalR_ObjC.git",
     "tag": "0.1.2"
   },
-  "platforms": {
-    "ios": "9.0"
-  },
   "source_files": "SignalR_ObjC/SignalR/**/*",
   "public_header_files": "Pod/SignalR/**/*.h",
   "dependencies": {
@@ -27,5 +24,11 @@
     "SocketRocket": [
 
     ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
   }
 }

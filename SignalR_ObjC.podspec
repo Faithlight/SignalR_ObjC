@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Faithlight/SignalR_ObjC'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Faithlight' => '454277536@qq.com' }
-  s.source           = { :git => 'https://github.com/Faithlight/SignalR_ObjC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Faithlight/SignalR_ObjC.git', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '9.0'
 
