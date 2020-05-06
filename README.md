@@ -22,7 +22,7 @@ pod 'SignalR_ObjC'
 
 ## Author
 
-Faithlight, 454277536@qq.com
+https://github.com/DyKnow/SignalR-ObjC 兼容afnetwork版本
 
 ## License
 
