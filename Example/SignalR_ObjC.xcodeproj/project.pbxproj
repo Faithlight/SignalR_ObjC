@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AB97B7508776FF31C321DD2 /* Pods_SignalR_ObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0876F7875B0C4660BABB9 /* Pods_SignalR_ObjC_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -17,14 +18,11 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CEC25B427B4DCF9A023BB3D8 /* Pods_SignalR_ObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E421975049576283B1151D0 /* Pods_SignalR_ObjC_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D0698BDE33A63BEF316849F /* Pods_SignalR_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_ObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30597397717D619CD88A2BBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		36CADBB9FE97F0CF53298EC9 /* SignalR_ObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SignalR_ObjC.podspec; path = ../SignalR_ObjC.podspec; sourceTree = "<group>"; };
-		3E421975049576283B1151D0 /* Pods_SignalR_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SignalR_ObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalR_ObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -38,14 +36,12 @@
 		6003F5A5195388D20070C39A /* ZLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* ZLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		64E6BA90118B9575BA2AA504 /* Pods-SignalR_ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_ObjC_Example.release.xcconfig"; path = "Target Support Files/Pods-SignalR_ObjC_Example/Pods-SignalR_ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6D24C213ED5DCA50E0437249 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C0AD3FCC1BBD562625EC35C /* Pods-SignalR_ObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_ObjC_Tests.release.xcconfig"; path = "Target Support Files/Pods-SignalR_ObjC_Tests/Pods-SignalR_ObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A1DEFF85DFAB387494A3A7D4 /* Pods-SignalR_ObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_ObjC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SignalR_ObjC_Tests/Pods-SignalR_ObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D511EDBD61A8F66DE0BCC5E5 /* Pods-SignalR_ObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_ObjC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SignalR_ObjC_Example/Pods-SignalR_ObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D8CB56D334E5184E4A4BD6CA /* Pods-SignalR_ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_ObjC_Example.release.xcconfig"; path = "Target Support Files/Pods-SignalR_ObjC_Example/Pods-SignalR_ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DDD0876F7875B0C4660BABB9 /* Pods_SignalR_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3B19B917DA98D48C31088B /* Pods-SignalR_ObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR_ObjC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SignalR_ObjC_Example/Pods-SignalR_ObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +52,22 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CEC25B427B4DCF9A023BB3D8 /* Pods_SignalR_ObjC_Example.framework in Frameworks */,
+				2AB97B7508776FF31C321DD2 /* Pods_SignalR_ObjC_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13AFBFAE335A0CD7BE172481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B19B917DA98D48C31088B /* Pods-SignalR_ObjC_Example.debug.xcconfig */,
+				D8CB56D334E5184E4A4BD6CA /* Pods-SignalR_ObjC_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +75,7 @@
 				6003F593195388D20070C39A /* Example for SignalR_ObjC */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				E485AA01F3BE59CE2637C361 /* Pods */,
+				13AFBFAE335A0CD7BE172481 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +93,7 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3E421975049576283B1151D0 /* Pods_SignalR_ObjC_Example.framework */,
-				0D0698BDE33A63BEF316849F /* Pods_SignalR_ObjC_Tests.framework */,
+				DDD0876F7875B0C4660BABB9 /* Pods_SignalR_ObjC_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,17 +133,6 @@
 				30597397717D619CD88A2BBB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		E485AA01F3BE59CE2637C361 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D511EDBD61A8F66DE0BCC5E5 /* Pods-SignalR_ObjC_Example.debug.xcconfig */,
-				64E6BA90118B9575BA2AA504 /* Pods-SignalR_ObjC_Example.release.xcconfig */,
-				A1DEFF85DFAB387494A3A7D4 /* Pods-SignalR_ObjC_Tests.debug.xcconfig */,
-				8C0AD3FCC1BBD562625EC35C /* Pods-SignalR_ObjC_Tests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -363,7 +355,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D511EDBD61A8F66DE0BCC5E5 /* Pods-SignalR_ObjC_Example.debug.xcconfig */;
+			baseConfigurationReference = DF3B19B917DA98D48C31088B /* Pods-SignalR_ObjC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -379,7 +371,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E6BA90118B9575BA2AA504 /* Pods-SignalR_ObjC_Example.release.xcconfig */;
+			baseConfigurationReference = D8CB56D334E5184E4A4BD6CA /* Pods-SignalR_ObjC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

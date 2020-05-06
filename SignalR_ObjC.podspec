@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Faithlight/SignalR_ObjC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  # s.ios.deployment_target = '11.0'
 
   s.source_files = 'SignalR_ObjC/SignalR/**/*'
   
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Pod/SignalR/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 3.0.0'
+  s.dependency 'AFNetworking'
   s.dependency 'SocketRocket'
 end

@@ -6,9 +6,4 @@ platform :ios, '8.0'
 target 'SignalR_ObjC_Example' do
   pod 'SignalR_ObjC', :path => '../'
 
-  target 'SignalR_ObjC_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
