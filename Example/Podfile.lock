@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - SignalR_ObjC (0.1.2):
+  - SignalR_ObjC (0.1.3):
     - AFNetworking
     - SocketRocket
   - SocketRocket (0.5.1)
@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  SignalR_ObjC: 8c5609b984093d6b56e835ebe884d7b02dc03525
+  SignalR_ObjC: 13dfb6d48ad7df38e26f65caa3a4504f2a83e7e6
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
 PODFILE CHECKSUM: 66d2dec06ba344e266607deff9e40ce71357330d
