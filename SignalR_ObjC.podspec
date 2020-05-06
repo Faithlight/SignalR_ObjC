@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SignalR_ObjC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SignalR_ObjC.'
+  s.summary          = 'SignalR-ObjC fork'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                     fork with SignalR-ObjC
                        DESC
 
   s.homepage         = 'https://github.com/Faithlight/SignalR_ObjC'
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SignalR_ObjC/Classes/**/*'
+  s.source_files = 'SignalR_ObjC/SignalR/**/*'
   
   # s.resource_bundles = {
   #   'SignalR_ObjC' => ['SignalR_ObjC/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/SignalR/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 3.0.0'
+  s.dependency 'SocketRocket'
 end
